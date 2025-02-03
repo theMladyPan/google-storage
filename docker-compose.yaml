@@ -1,10 +1,9 @@
 services:
   app:
     build:
-      context: .
       dockerfile: Dockerfile
+      context: .
     volumes:
-      - .:/app
       - ~/.config/gcloud/application_default_credentials.json:/root/.config/gcloud/application_default_credentials.json:ro
     command: uvicorn main:app --host "0.0.0.0" --port 8080
     ports:

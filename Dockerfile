@@ -1,6 +1,10 @@
 # Use official Python image
 FROM python:3.12-alpine
 
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
 # Set working directory
 WORKDIR /app
 

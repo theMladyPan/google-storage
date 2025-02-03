@@ -1,0 +1,48 @@
+# Ignore node_modules
+node_modules
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore Docker files
+Dockerfile
+Dockerfile.*
+
+# Ignore build directories
+dist
+build
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode
+.idea
+*.iml
+.history
+
+# Ignore venv
+.venv
+venv
+
+# python files
+*.pyc
+*.pyo
+*.pyd
+**__pycache__**
+
+# Ignore git files
+.git
+
+# Ignore docker-compose files
+.dockerignore
+.gitignore
+Makefile
+docker-compose.yaml
